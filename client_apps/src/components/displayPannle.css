@@ -1,0 +1,10 @@
+.display-container {
+  background-color: beige;
+  height: 50vh;
+  overflow: auto;
+  padding-left: 20px;
+}
+
+.fizbuz {
+  font-weight: bold;
+}
