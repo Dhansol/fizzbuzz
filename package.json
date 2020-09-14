@@ -1,0 +1,25 @@
+{
+  "name": "fizz-buzz-api",
+  "version": "1.0.0",
+  "description": "fizz buzz api along with react front client and back node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./",
+    "server": "nodemon ./",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "fizz",
+    "buzz"
+  ],
+  "author": "Test Srijan",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
