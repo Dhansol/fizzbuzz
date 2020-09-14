@@ -20,7 +20,7 @@ class Inputpannle extends Component {
     try {
       const returnValue = await axios
         .get(
-          `https://fathomless-citadel-61453.herokuapp.com/count?count=${this.state.count}`
+          `https://fathomless-citadel-61453.herokuapp.com?count=${this.state.count}`
         )
         .then((res) => {
           this.props.updateFun(res.data);
