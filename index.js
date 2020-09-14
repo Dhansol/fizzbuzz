@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 
-app.get("/count", async (req, res) => {
+app.get("/", async (req, res) => {
   try {
     const returnValue = await fizzbuzzArr(req.query.count);
     res.status(200).send(returnValue);
